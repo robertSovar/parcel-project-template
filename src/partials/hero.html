@@ -5,16 +5,148 @@
         Treat yourself or a loved one to our finest ingredients for a moment of
         pure delight!
       </h1>
-      <div class="command-button-section">
-        <button class="buy-now-btn">Buy now</button>
-        <button class="how-its-made-btn">How it’s made</button>
+      <div class="hero-btn-section">
+        <div class="command-button-section">
+          <button class="buy-now-btn" data-modal-open-buy-now>Buy now</button>
+          <button class="how-its-made-btn">
+            <a href="#how-its-made"></a>How it’s made</button>
+        </div>
+        <a class="scroll-btn" href="#footer">
+          <p>scroll down</p>
+          <svg>
+            <use href="./images/icons.svg#icon-2"></use>
+          </svg>
+        </a>
       </div>
-      <a class="scroll-btn" href="#footer">
-        <p>scroll down</p>
-        <svg>
-          <use href="./images/icons.svg#icon-2"></use>
-        </svg>
-      </a>
     </div>
   </section>
+<!-- Buy now modal -->
+<div class="buy-now-modal buy-now-modal-is-hidden" data-modal-buy-now>
+  <div class="buy-now-modal-content">
+    <h2 class="buy-now-title"> <span class="buy-span">BUY </span>NOW</h2>
+  <ul class="buy-now-cards">
+    <li class="cards first-card">
+      <picture>
+        <source
+          class="buy-now-first-pic"
+          srcset="
+          ./images/chocolate-bar-kinder-1-m.webp,
+          ./images/chocolate-bar-kinder-2-m.webp
+          "
+          media="(min-width: 1280px)"
+        >
+        <source
+          srcset="
+          ./images/chocolate-bar-kinder-1-m.webp,
+          ./images/chocolate-bar-kinder-2-m.webp
+          "
+          media="(min-width: 768px)"
+        >
+        <source
+          srcset="
+          ./images/chocolate-bar-kinder-1-m.webp,
+          ./images/chocolate-bar-kinder-2-m.webp
+          "
+          media="(max-width: 320px)"
+        >
+        <img
+          src="./images/chocolate-bar-kinder-1-m.webp"
+          alt="rasberry-icecream"
+        >
+      </picture>
+      <span class="order-weight">100 g</span></li>
+    <li class="cards second-card">
+      <picture>
+        <source
+          srcset="
+          ./images/chocolate-bar-praline-kinder-1-m.webp,
+          ./images/chocolate-bar-praline-kinder-2-m.webp
+          "
+          media="(min-width: 1280px)"
+        >
+        <source
+          srcset="
+          ./images/chocolate-bar-praline-kinder-1-m.webp,
+          ./images/chocolate-bar-praline-kinder-2-m.webp
+          "
+          media="(min-width: 768px)"
+        >
+        <source
+          srcset="
+          ./images/chocolate-bar-praline-kinder-1-m.webp,
+          ./images/chocolate-bar-praline-kinder-2-m.webp
+          "
+          media="(max-width: 320px)"
+        >
+        <img
+          src="./images/chocolate-bar-praline-kinder-1-m.webp"
+          alt="rasberry-icecream"
+        >
+      </picture>
+      <span class="order-weight">200 g</span></li>
+    <li class="cards third-card">
+      <picture>
+        <source
+          srcset="
+          ./images/chocolate-bar-dark-chocolate-1-m.webp,
+          ./images/chocolate-bar-dark-chocolate-2-m.webp
+          "
+          media="(min-width: 1280px)"
+        >
+        <source
+          srcset="
+          ./images/chocolate-bar-dark-chocolate-1-m.webp,
+          ./images/chocolate-bar-dark-chocolate-2-m.webp
+          "
+          media="(min-width: 768px)"
+        >
+        <source
+          srcset="
+          ./images/chocolate-bar-dark-chocolate-1-m.webp,
+          ./images/chocolate-bar-dark-chocolate-2-m.webp
+          "
+          media="(max-width: 320px)"
+        >
+        <img
+          src="./images/chocolate-bar-dark-chocolate-1-m.webp"
+          alt="rasberry-icecream"
+        >
+      </picture>
+      <span class="order-weight">300 g</span></li>
+  </ul>
+  <form class="buy-now-formular" name="signup_form" autocomplete="off" novalidate>
+    <h2 class="formular-title">Personal information</h2>
+   <label id="name" aria-placeholder="Name"> 
+    <input type="text" placeholder="Name"name="name" autocomplete="off">
+   </label>
+   <label id="surname" aria-placeholder="Surname" > 
+    <input type="text" placeholder="Surname" name="surname" autocomplete="off">
+   </label>
+
+   <h2 class="formular-title">Email</h2>
+    <label id="email" aria-placeholder="email">
+      <input type="email" name="email" placeholder="Enter your email" autocomplete="off"/>
+    </label>
+
+    <h2 class="formular-title">Phone number</h2>
+    <label id="phone" aria-placeholder="phone">
+      <input type="number" name="phone" placeholder="| Phone number" autocomplete="off">
+    </label>
+
+    <h2 class="formular-title">Card number</h2>
+    <label id="card-number" aria-placeholder="card number">
+      <input type="number" name="card-number" placeholder="Enter card" autocomplete="off">
+    </label>
+
+    <h2 class="formular-title">Comment</h2>
+    <label class="comment-area" id="textarea" aria-placeholder="textarea">
+      <textarea type="text" name="textarea" placeholder="Enter text">
+    </label>
+  
+    <button type="submit" class="buy-area-submit-btn">Submit</button>
+  </form>
+  <div class="buy-now-close-btn" data-modal-close-buy-now>&#x2715</div>
+  </div>
+  
+</div>
 </main>
