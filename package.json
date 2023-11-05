@@ -18,7 +18,8 @@
     "url": "https://github.com/robertSovar/simply-chocolate-project"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "vue-tel-input": "^8.1.4"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
