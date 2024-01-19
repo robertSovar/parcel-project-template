@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
-    "vue-tel-input": "^8.1.4"
+    "vue": "^3.3.9",
+    "vue-tel-input": "^8.2.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
