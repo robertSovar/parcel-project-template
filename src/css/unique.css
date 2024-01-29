@@ -51,7 +51,7 @@
   height: 270px;
   flex-shrink: 0;
   border-radius: 15px;
-  border: 1 solid #fd9222;
+  border: 1px solid #fd9222;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 1s;
@@ -152,4 +152,29 @@
 .back .button.orange {
   background-color: #fd9222;
   color: white;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .unique-section {
+    width: 784px;
+  }
+
+  .unique-text-area {
+    width: 486px;
+    display: flex;
+    align-self: center;
+  }
+
+  .product-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px) {
+  .unique-section {
+    width: 100%;
+  }
 }
