@@ -1,24 +1,7 @@
 :root {
   --color-white: #fff;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-}
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
+
 .advantages {
   font-family: 'Montserrat';
   margin: 0;
