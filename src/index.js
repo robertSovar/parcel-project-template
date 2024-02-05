@@ -34,3 +34,5 @@ import 'vue-tel-input/dist/vue-tel-input.css';
 })();
 
 // Country prefixes for telephone numbers
+
+// Our products carousel

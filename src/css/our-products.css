@@ -1,0 +1,42 @@
+.our-products-section {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.our-products-container {
+  width: 335px;
+  margin: 0 auto;
+}
+
+.our-products-title-section {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #111;
+}
+
+.orange-text {
+  color: #fd9222;
+  margin-left: 7px;
+  text-transform: uppercase;
+}
+
+#carouselExampleIndicators {
+  width: 230px;
+  margin: 0 auto;
+}
+
+#carouselExampleIndicators .active {
+  background-color: #fd9222;
+}
+
+.carousel-control-next-icon .sr-only {
+  background-color: #fd9222;
+}

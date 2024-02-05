@@ -66,6 +66,7 @@
   background-color: #fcf1e0;
   color: #fd9222;
   cursor: pointer;
+  outline: none;
 }
 
 .how-its-made-btn {
