@@ -92,6 +92,7 @@
   visibility: visible;
   top: 0;
   right: 0;
+  z-index: 99999999;
 }
 
 .header-modal-content {

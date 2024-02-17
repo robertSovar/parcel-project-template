@@ -137,6 +137,7 @@
   height: 100%;
   overflow: auto;
   padding: 100px;
+  z-index: 9999;
 }
 
 .buy-now-modal {

@@ -5,6 +5,11 @@
   padding-right: 20px;
 }
 
+.orange-text {
+  color: #fd9222;
+  margin-left: 7px;
+}
+
 .top-sellers-container {
   width: 335px;
   margin: 0 auto;
@@ -74,6 +79,30 @@
 }
 
 @media screen and (min-width: 768px) {
+  .top-sellers-container {
+    width: 704px;
+    position: relative;
+  }
+
+  .top-sellers-image-wrapper {
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 32px;
+    padding: 0;
+  }
+
+  .top-sellers-btn-wrapper {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+  }
 }
 @media screen and (min-width: 1200px) {
+  .top-sellers-container {
+    width: 1136px;
+  }
+
+  .top-sellers-third-picture {
+    display: inline-flex;
+  }
 }
