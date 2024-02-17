@@ -101,7 +101,6 @@
   flex-direction: column;
   gap: 300px;
   width: 220px;
-  height: 100vw;
   padding: 90px 30px;
 }
 
@@ -142,6 +141,10 @@
     max-width: 768px;
     margin: 0 auto;
     padding: 31px 32px;
+  }
+
+  .header-modal-content {
+    height: 100vw;
   }
 
   .burger-button {
