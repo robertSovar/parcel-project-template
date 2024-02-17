@@ -321,7 +321,7 @@
   .buy-now-modal {
     padding: 32px 24px;
     gap: 32px;
-    max-width: 609px;
+    width: 609px;
   }
 
   .buy-now-cards {
