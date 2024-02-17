@@ -3,7 +3,7 @@
 }
 
 .main-container {
-  max-width: 375px;
+  width: 375px;
   margin: 0 auto;
   padding: 0 20px;
   font-family: 'Montserrat';
@@ -11,7 +11,7 @@
 }
 
 .hero-main-section {
-  max-width: 335px;
+  width: 335px;
   margin: 0 auto;
   padding: 395px 20px 20px;
   background-image: linear-gradient(
@@ -268,10 +268,10 @@
 
 @media screen and (min-width: 768px) {
   .main-container {
-    max-width: 768px;
+    width: 768px;
   }
   .hero-main-section {
-    max-width: 704px;
+    width: 704px;
     flex-shrink: 0;
     padding: 671px 40px 40px 40px;
     background-image: url(../images/chocolate-covered-cocoa-powder-1t.webp);
@@ -349,11 +349,11 @@
 
 @media screen and (min-width: 1200px) {
   .main-container {
-    max-width: 1200px;
+    width: 1200px;
   }
 
   .hero-main-section {
-    max-width: 1136px;
+    width: 1136px;
     flex-shrink: 0;
     padding: 381px 40px 40px 40px;
     background-image: url(../images/chocolate-covered-cocoa-powder-1d.webp);
