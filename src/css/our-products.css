@@ -1,42 +1,116 @@
-.our-products-section {
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
+@media only screen and (min-width: 768px) {
+  .our-products {
+    padding-top: 100px;
+  }
 }
 
-.our-products-container {
-  width: 335px;
-  margin: 0 auto;
+@media only screen and (min-width: 1200px) {
+  .our-products {
+    padding-top: 128px;
+  }
 }
 
-.our-products-title-section {
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+.our-products-title {
+  margin-bottom: 32px;
+
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -0.03em;
-  text-align: center;
-  color: #111;
-}
-
-.orange-text {
-  color: #fd9222;
-  margin-left: 7px;
   text-transform: uppercase;
+  text-align: center;
 }
 
-#carouselExampleIndicators {
-  width: 230px;
-  margin: 0 auto;
+@media only screen and (min-width: 768px) {
+  .our-products-title {
+    margin-bottom: 50px;
+  }
 }
 
-#carouselExampleIndicators .active {
-  background-color: #fd9222;
+.our-products-title-span {
+  color: rgba(253, 146, 34, 1);
 }
 
-.carousel-control-next-icon .sr-only {
-  background-color: #fd9222;
+.our-products-item {
+  padding: 32px 52px;
+
+  text-align: center;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .our-products-item {
+    padding: 32px 20px;
+  }
+}
+
+.our-products-chocolate-describe {
+  margin-top: 8px;
+}
+
+.our-products-chocolate-name {
+  margin-bottom: 2px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.our-products-chocolate-type {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.our-products-chocolate-button {
+  margin-top: 18px;
+  padding: 8px 20px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #111111;
+  text-transform: uppercase;
+
+  background: #fafafa;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+  transition: background cubic-bezier(0.4, 0, 0.2, 1),
+    border cubic-bezier(0.4, 0, 0.2, 1), color cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-products-chocolate-button:hover,
+.our-products-chocolate-button:focus {
+  background: rgba(253, 146, 34, 1);
+  border: 1px solid rgba(253, 146, 34, 1);
+  color: #fafafa;
+}
+
+.swiper-pagination-bullet {
+  background: rgba(148, 43, 43, 0.1);
+  width: 13px;
+  height: 13px;
+}
+
+.swiper-pagination-bullet-active {
+  width: 28px;
+  height: 13px;
+  background: #fd9222;
+  border-radius: 100px;
+}
+
+.swiper-pagination {
+  position: static;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .swiper-pagination {
+    margin-top: 32px;
+  }
 }

@@ -40,7 +40,6 @@
   font-weight: 500;
   line-height: 16px; /* 114.286% */
   letter-spacing: -0.28px;
-  margin: 136px 46px 550px 50px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -93,14 +92,16 @@
   visibility: visible;
   top: 0;
   right: 0;
-  overflow-y: scroll;
 }
 
 .header-modal-content {
   background-color: #1e1823;
   display: flex;
   flex-direction: column;
+  gap: 300px;
   width: 220px;
+  height: 100vw;
+  padding: 90px 30px;
 }
 
 .header-modal-is-hidden {
@@ -157,7 +158,6 @@
   }
 
   .navigation-header-bar {
-    margin: 156px 81px 550px 85px;
     gap: 24px;
   }
 

@@ -1,38 +1,6 @@
-import Vue from 'vue';
-import VueTelInput from 'vue-tel-input';
-import 'vue-tel-input/dist/vue-tel-input.css';
+import headerModal from './js/headerModal';
+import buyNowModal from './js/buyNowModal';
+import './js/swiper.js';
 
-//  Header modal
-(() => {
-  const headerModal = {
-    openModalBtn: document.querySelector('[data-modal-open-header]'),
-    closeModalBtn: document.querySelector('[data-modal-close-header]'),
-    modal: document.querySelector('[data-modal-header]'),
-  };
-
-  headerModal.openModalBtn.addEventListener('click', toggleModal);
-  headerModal.closeModalBtn.addEventListener('click', toggleModal);
-
-  function toggleModal() {
-    headerModal.modal.classList.toggle('header-modal-is-hidden');
-  }
-})();
-
-(() => {
-  const buyNowModal = {
-    openModalBtn: document.querySelector('[data-modal-open-buy-now]'),
-    closeModalBtn: document.querySelector('[data-modal-close-buy-now]'),
-    modal: document.querySelector('[data-modal-buy-now]'),
-  };
-
-  buyNowModal.openModalBtn.addEventListener('click', toggleModal);
-  buyNowModal.closeModalBtn.addEventListener('click', toggleModal);
-
-  function toggleModal() {
-    buyNowModal.modal.classList.toggle('buy-now-modal-is-hidden');
-  }
-})();
-
-// Country prefixes for telephone numbers
-
-// Our products carousel
+headerModal();
+buyNowModal();
