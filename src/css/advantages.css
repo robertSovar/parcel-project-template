@@ -4,9 +4,9 @@
 
 .advantages {
   font-family: 'Montserrat';
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
   background: #1e1823;
+  width: 375px;
   color: var(--color-white);
   display: flex;
   justify-content: center;
@@ -59,6 +59,7 @@
 
 @media screen and (min-width: 768px) {
   .advantages {
+    width: 768px;
     padding: 50px 32px;
   }
   .advantages-container {
@@ -74,6 +75,7 @@
 }
 @media screen and (min-width: 1200px) {
   .advantages {
+    width: 1200px;
     padding: 50px;
   }
   .advantages-img {
