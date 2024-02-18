@@ -275,6 +275,7 @@
     flex-shrink: 0;
     padding: 671px 40px 40px 40px;
     background-image: url(../images/chocolate-covered-cocoa-powder-1t.webp);
+    position: relative;
   }
 
   .hero-title {
@@ -297,7 +298,6 @@
 
   .hero-btn-section {
     display: flex;
-    gap: 153px;
     align-items: center;
   }
   .command-button-section {
@@ -316,6 +316,8 @@
     flex-shrink: 0;
     transition: var(--animation-duration);
     margin-top: 0;
+    position: absolute;
+    right: 5px;
   }
 
   .buy-now-modal {
@@ -349,16 +351,13 @@
 
 @media screen and (min-width: 1200px) {
   .main-container {
-    width: 1200px;
+    width: 100%;
   }
 
   .hero-main-section {
-    width: 1136px;
+    width: 100%;
     flex-shrink: 0;
     padding: 381px 40px 40px 40px;
     background-image: url(../images/chocolate-covered-cocoa-powder-1d.webp);
-  }
-  .hero-btn-section {
-    gap: 585px;
   }
 }
