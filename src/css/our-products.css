@@ -92,9 +92,15 @@
 }
 
 .swiper-pagination-bullet {
-  background: rgba(148, 43, 43, 0.1);
+  background: rgba(240, 119, 119, 0.1);
   width: 13px;
   height: 13px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #fd9222;
 }
 
 .swiper-pagination-bullet-active {
